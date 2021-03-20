@@ -1,6 +1,7 @@
 package ro.ase.cts.program;
 
 import ro.ase.cts.clase.Parlament;
+import ro.ase.cts.clase.ParlamentLazy;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +19,12 @@ public class Main {
         parlament2.setNrParlamentari(300);
 
         System.out.println(parlament1.toString());
+        System.out.println(parlament2.toString());
+
+        ParlamentLazy parlamentLazy1 = ParlamentLazy.getInstance("Serbia", 400, 8, "Sediul A");
+        ParlamentLazy parlamentLazy2 = ParlamentLazy.getInstance("UK", 500, 2, "Sediul B");
+
+        System.out.println(parlamentLazy1.toString());
         System.out.println(parlament2.toString());
     }
 }
