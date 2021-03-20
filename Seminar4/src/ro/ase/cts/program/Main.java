@@ -1,4 +1,5 @@
 package ro.ase.cts.program;
+import ro.ase.cts.clase.*;
 
 import ro.ase.cts.clase.Parlament;
 import ro.ase.cts.clase.ParlamentLazy;
