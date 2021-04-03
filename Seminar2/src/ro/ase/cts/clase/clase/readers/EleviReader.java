@@ -1,7 +1,7 @@
-package ro.ase.cts.clase.readers;
+package ro.ase.cts.clase.clase.readers;
 
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.Elev;
+import ro.ase.cts.clase.clase.Aplicant;
+import ro.ase.cts.clase.clase.Elev;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EleviReader extends   Readable{
+public class EleviReader extends Readable {
 
 
     public EleviReader(String fileName) {

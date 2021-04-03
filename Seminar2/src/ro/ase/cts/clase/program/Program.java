@@ -1,16 +1,16 @@
-package ro.ase.cts.program;
+package ro.ase.cts.clase.program;
 
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.Proiect;
-import ro.ase.cts.clase.readers.EleviReader;
-import ro.ase.cts.clase.readers.Readable;
+import ro.ase.cts.clase.clase.Aplicant;
+import ro.ase.cts.clase.clase.Proiect;
+import ro.ase.cts.clase.clase.readers.EleviReader;
+import ro.ase.cts.clase.clase.readers.Readable;
 
 import java.io.FileNotFoundException;
 import java.util.List;
 
 public class Program {
 
-	public static List<Aplicant> citesteAplicanti( Readable reader) throws  FileNotFoundException{
+	public static List<Aplicant> citesteAplicanti(Readable reader) throws  FileNotFoundException{
 		return reader.readAplicanti();
 	}
 

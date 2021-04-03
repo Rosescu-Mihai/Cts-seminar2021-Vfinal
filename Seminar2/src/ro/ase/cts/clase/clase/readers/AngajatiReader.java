@@ -1,7 +1,7 @@
-package ro.ase.cts.clase.readers;
+package ro.ase.cts.clase.clase.readers;
 
-import ro.ase.cts.clase.Angajat;
-import ro.ase.cts.clase.Aplicant;
+import ro.ase.cts.clase.clase.Angajat;
+import ro.ase.cts.clase.clase.Aplicant;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatiReader extends Readable{
+public class AngajatiReader extends Readable {
 
     public AngajatiReader(String fileName)
     {
