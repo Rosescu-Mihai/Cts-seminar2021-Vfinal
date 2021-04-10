@@ -7,6 +7,6 @@ public class AdaptereClasaLeasing extends Leasing implements Creditable {
 
     @Override
     public void crediteaza() {
-
+        super.oferaLeasing();
     }
 }
