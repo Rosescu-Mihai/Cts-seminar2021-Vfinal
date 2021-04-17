@@ -41,6 +41,6 @@ public class Sectiune implements ComponentaAbstracta {
         if(pozitite>0 && pozitite < listComponente.size()) {
             return listComponente.get(pozitite);
         }
-        return null;
+        throw new IndexOutOfBoundsException();
     }
 }
