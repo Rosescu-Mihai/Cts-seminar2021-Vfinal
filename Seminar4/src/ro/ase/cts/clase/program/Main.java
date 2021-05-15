@@ -23,8 +23,9 @@ public class Main {
 
         ParlamentLazy parlamentLazy1 = ParlamentLazy.getInstance("Serbia", 400, 8, "Sediul A");
         ParlamentLazy parlamentLazy2 = ParlamentLazy.getInstance("UK", 500, 2, "Sediul B");
+        parlamentLazy2.setDenumireSediu("Sediul C");
 
         System.out.println(parlamentLazy1.toString());
-        System.out.println(parlament2.toString());
+        System.out.println(parlamentLazy2.toString());
     }
 }
