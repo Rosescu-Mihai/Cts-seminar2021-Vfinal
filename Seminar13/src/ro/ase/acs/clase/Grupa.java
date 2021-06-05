@@ -43,13 +43,13 @@ public class Grupa {
     }
 
     public float getPromovabilitate(){
-        int nrRestantieri=0;
+        int nrIntegralisti=0;
         for(IStudent student:studenti){
-            if(student.areRestante()){
-                nrRestantieri++;
+            if(!student.areRestante()){
+                nrIntegralisti++;
             }
         }
-        return studenti.size()/nrRestantieri;
+        return nrIntegralisti/(float)studenti.size();
     }
 
     public List<IStudent> getStudenti() {
